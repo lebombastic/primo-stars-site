@@ -67,24 +67,34 @@
                   </div>
                   
                 </div>
-                <div class="flex container relatieve z-10">
-                  <div class="absolute left-64 bottom-24">
-                    <button aria-label="Previous" class="prev text-3xl absolute bottom-12 left-96 text-white  transition-colors duration-200">
-                    <i class=" fa fa-angle-right fa-2x"></i>
+                    <button aria-label="Previous" class="prev text-3xl absolute left-12 bottom-40  text-white  transition-colors duration-200">
+                    <i class=" fa fa-angle-left fa-2x animate-pulse text-indigo-200"></i>
                     </button>
-                    </div>
-                    <div class=" absolute ">
-                    <button aria-label="Next" class="next bottom-24  text-3xl text-white absolute  transition-colors duration-200">
-                        <i class=" fa fa-angle-left fa-2x"></i>
+                    <button aria-label="Next" class="next bottom-40 right-24  text-3xl text-white absolute  transition-colors duration-200">
+                        <i class=" fa fa-angle-right fa-2x animate-pulse text-indigo-200"></i>
                     </button>
-                  </div>
-                </div>
             </div>
           </div>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.3/glider.min.css" integrity="sha512-YM6sLXVMZqkCspZoZeIPGXrhD9wxlxEF7MzniuvegURqrTGV2xTfqq1v9FJnczH+5OGFl5V78RgHZGaK34ylVg==" crossorigin="anonymous" />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </div>
-          
+          <script type="module">
+        const primo = {
+          id: 'lepad',
+          data: {"items":[{"image":{"alt":"","url":"http://stars-egypt.org/wp-content/uploads/2017/05/Capture-1024x536.png","size":null},"title":"Stars"},{"image":{"alt":"","url":"http://stars-egypt.org/wp-content/uploads/2013/05/DSC_0095-1024x682.jpg","size":null},"title":"Children's Educations"}]},
+          fields: [{"id":"cgift","key":"items","type":"repeater","label":"Itesm","value":[{"image":{"alt":"","url":"http://stars-egypt.org/wp-content/uploads/2017/05/Capture-1024x536.png","size":null},"title":"Stars"},{"image":{"alt":"","url":"http://stars-egypt.org/wp-content/uploads/2013/05/DSC_0095-1024x682.jpg","size":null},"title":"Children's Educations"}],"fields":[{"id":"teixi","key":"image","type":"image","label":"images","value":""},{"id":"wlcau","key":"title","type":"text","label":"letitle","value":""}]}]
+        }
+        import Glider from 'https://cdn.skypack.dev/glider-js'
+
+new Glider(document.querySelector('.glider'), {
+  slidesToShow: 1,
+  dots: '#dots',
+  draggable: true,
+  arrows: {
+    prev: '.prev',
+    next: '.next'
+  }
+});</script>
         </div>
         
       </div>
