@@ -18,7 +18,7 @@
     <div class="flex text-2xl">
     <img class="h-32" src="http://stars-egypt.org/wp-content/uploads/2017/05/stars-egypt-logo@2x.png" alt="">
         <div class="flex flex-col ml-auto pt-16 uppercase">
-            Programs
+           <a href="">Programs</a> 
             <div class="invisible">
             <p class="hover:visible">
                 hello
@@ -26,9 +26,9 @@
             </div>
         </div>
            <div class="flex pt-16">
-                <p class="ml-10 uppercase">Get Involved</p>
-                <p class="ml-10 uppercase">Contacts</p>
-                <p class="ml-10 uppercase">Donate</p>
+                <a href="" class="ml-10 uppercase">Get Involved</a>
+                <a href="" class="ml-10 uppercase">Contacts</a>
+                <a href="" class="ml-10 uppercase">Donate</a>
                 <div class="" id="icons">
                 <a class=" ml-4 border-2 px-4 py-2 border-blue-500 hover:bg-blue-500 hover:text-white" href="">Facebook 
               <i class="fa fa-facebook"></i>
@@ -59,6 +59,30 @@
                           </div>
                           </div>
                   </div>
+                    <div class="w-full">
+                      <div class="flex relative">
+                          <div class="w-full h-96 rounded-3xl bg-cover bg-center mr-3" alt="" style="background-image: url(http://stars-egypt.org/wp-content/uploads/2013/05/DSC_0095-1024x682.jpg);
+                          ">
+                             <span class=" font-bold text-2xl bg-red-400 px-12 absolute top-72 left-4">Children Education</span>
+                          </div>
+                          </div>
+                  </div>
+                    <div class="w-full">
+                      <div class="flex relative">
+                          <div class="w-full h-96 rounded-3xl bg-cover bg-center mr-3" alt="" style="background-image: url(http://stars-egypt.org/wp-content/uploads/2013/05/DSC_0086-1024x682.jpg);
+                          ">
+                             <span class=" font-bold text-2xl bg-red-400 px-12 absolute top-72 left-4">Community Support</span>
+                          </div>
+                          </div>
+                  </div>
+                    <div class="w-full">
+                      <div class="flex relative">
+                          <div class="w-full h-96 rounded-3xl bg-cover bg-center mr-3" alt="" style="background-image: url(http://stars-egypt.org/wp-content/uploads/2013/05/DSC_0145-1024x682.jpg);
+                          ">
+                             <span class=" font-bold text-2xl bg-red-400 px-12 absolute top-72 left-4">Learning Together</span>
+                          </div>
+                          </div>
+                  </div>
                   
                 </div>
                 <div class="flex container relatieve z-10">
@@ -74,7 +98,24 @@
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.3/glider.min.css" integrity="sha512-YM6sLXVMZqkCspZoZeIPGXrhD9wxlxEF7MzniuvegURqrTGV2xTfqq1v9FJnczH+5OGFl5V78RgHZGaK34ylVg==" crossorigin="anonymous" />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </div>
-          
+          <script type="module">
+        const primo = {
+          id: 'lepad',
+          data: {"items":[{"image":{"alt":"","url":"http://stars-egypt.org/wp-content/uploads/2017/05/Capture-1024x536.png","size":null},"title":"Stars"},{"image":{"alt":"","url":"http://stars-egypt.org/wp-content/uploads/2013/05/DSC_0095-1024x682.jpg","size":null},"title":"Children Education"},{"image":{"alt":"","url":"http://stars-egypt.org/wp-content/uploads/2013/05/DSC_0086-1024x682.jpg","size":null},"title":"Community Support"},{"image":{"alt":"","url":"http://stars-egypt.org/wp-content/uploads/2013/05/DSC_0145-1024x682.jpg","size":null},"title":"Learning Together"}]},
+          fields: [{"id":"cgift","key":"items","type":"repeater","label":"Itesm","value":[{"image":{"alt":"","url":"http://stars-egypt.org/wp-content/uploads/2017/05/Capture-1024x536.png","size":null},"title":"Stars"},{"image":{"alt":"","url":"http://stars-egypt.org/wp-content/uploads/2013/05/DSC_0095-1024x682.jpg","size":null},"title":"Children Education"},{"image":{"alt":"","url":"http://stars-egypt.org/wp-content/uploads/2013/05/DSC_0086-1024x682.jpg","size":null},"title":"Community Support"},{"image":{"alt":"","url":"http://stars-egypt.org/wp-content/uploads/2013/05/DSC_0145-1024x682.jpg","size":null},"title":"Learning Together"}],"fields":[{"id":"teixi","key":"image","type":"image","label":"images","value":""},{"id":"wlcau","key":"title","type":"text","label":"letitle","value":""}]}]
+        }
+        import Glider from 'https://cdn.skypack.dev/glider-js'
+
+new Glider(document.querySelector('.glider'), {
+  slidesToShow: 1,
+  dots: '#dots',
+  draggable: true,
+  rewind: true,
+  arrows: {
+    prev: '.prev',
+    next: '.next'
+  }
+});</script>
         </div>
         
       </div>
