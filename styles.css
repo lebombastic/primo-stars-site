@@ -792,24 +792,16 @@ video {
   left: 1rem;
 }
 
-.bottom-12 {
-  bottom: 3rem;
+.right-24 {
+  right: 6rem;
 }
 
-.bottom-24 {
-  bottom: 6rem;
-}
-
-.left-64 {
-  left: 16rem;
+.bottom-32 {
+  bottom: 8rem;
 }
 
 .top-72 {
   top: 18rem;
-}
-
-.left-96 {
-  left: 24rem;
 }
 
 * {
@@ -968,6 +960,11 @@ video {
     -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
             animation-timing-function: cubic-bezier(0,0,0.2,1);
   }
+}
+
+.animate-pulse {
+  -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 /* Default content styles */
