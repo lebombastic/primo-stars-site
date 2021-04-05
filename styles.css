@@ -584,6 +584,11 @@ video {
   background-color: rgba(185, 28, 28, var(--tw-bg-opacity));
 }
 
+.hover\:bg-gray-900:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+}
+
 .hover\:bg-red-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(252, 165, 165, var(--tw-bg-opacity));
@@ -814,6 +819,10 @@ video {
 .object-center {
   -o-object-position: center;
      object-position: center;
+}
+
+.hover\:opacity-60:hover {
+  opacity: 0.6;
 }
 
 .focus\:outline-none:focus {
