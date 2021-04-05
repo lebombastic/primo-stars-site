@@ -853,16 +853,16 @@ video {
   bottom: 8rem;
 }
 
+.left-32 {
+  left: 8rem;
+}
+
 .left-40 {
   left: 10rem;
 }
 
-.right-44 {
-  right: 11rem;
-}
-
-.left-52 {
-  left: 13rem;
+.right-64 {
+  right: 16rem;
 }
 
 .top-72 {
@@ -925,6 +925,10 @@ video {
 
 .w-12 {
   width: 3rem;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .w-9\/12 {
