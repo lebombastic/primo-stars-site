@@ -663,6 +663,14 @@ video {
   border-bottom-left-radius: 1.5rem;
 }
 
+.rounded-tl-full {
+  border-top-left-radius: 9999px;
+}
+
+.rounded-tr-full {
+  border-top-right-radius: 9999px;
+}
+
 .border-2 {
   border-width: 2px;
 }
@@ -765,6 +773,15 @@ video {
   margin-right: 4rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .mr-3 {
   margin-right: 0.75rem;
 }
@@ -836,6 +853,10 @@ video {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
 }
 
 .pt-2 {
